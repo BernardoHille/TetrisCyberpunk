@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tetris Cyberpunk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <canvas id="tetris"></canvas>
+    <div class="score-panel">Score: <span id="score">0</span></div>
+    <div id="start" class="overlay active">
+      <h1>Tetris Cyberpunk</h1>
+      <p>Select Difficulty</p>
+      <div class="buttons">
+        <button data-speed="1000">Easy</button>
+        <button data-speed="600">Medium</button>
+        <button data-speed="300">Hard</button>
+      </div>
+    </div>
+    <div id="gameover" class="overlay">
+      <h1>Game Over</h1>
+      <p>Score: <span id="finalScore"></span></p>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
