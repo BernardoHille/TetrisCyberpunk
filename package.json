@@ -1,0 +1,17 @@
+{
+  "name": "tetriscyberpunk",
+  "version": "1.0.0",
+  "description": "Neon Blocks - A cyberpunk Tetris game",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {
+    "next": "^14.2.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
